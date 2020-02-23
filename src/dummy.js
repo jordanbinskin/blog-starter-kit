@@ -1,8 +1,9 @@
 export default [
   {
-    "heading": "How to meme",
+    "heading": "JavaScript Quirks: undeclared, undefined or null",
     "image": "http://dummyimage.com/157x110.bmp/dddddd/000000",
-    "blurb": "A full interactive guide on how to be a good memer"
+    "blurb": "In JavaScript there is more than one way to refer to an 'nothing' value. First, there are two types of variables (or bindings) those which you have declared, and those which you have not.",
+    "body": "In JavaScript there is more than one way to refer to an 'nothing' value. First, there are two types of variables (or bindings) those which you have declared, and those which you have not. The next thing you can do after you declare a variable, is assign it a value. You can shortcut declaring a variable and go straight to its assignment. This is highly unrecommended, without much nuance to argue the other way i.e. don't pollute the global scope. Note in strict mode this will throw a ReferenceError."
   },
   {
     "heading": "I like to yeet",
